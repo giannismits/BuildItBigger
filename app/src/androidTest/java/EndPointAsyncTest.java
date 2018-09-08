@@ -1,5 +1,3 @@
-package test;
-
 import android.content.Context;
 import android.media.audiofx.DynamicsProcessing;
 import android.support.test.InstrumentationRegistry;
@@ -22,7 +20,7 @@ import java.util.concurrent.TimeUnit;
 
 
 @RunWith(AndroidJUnit4.class)
-
+@LargeTest
 public  class EndPointAsyncTest  {
 
 private Context context;
