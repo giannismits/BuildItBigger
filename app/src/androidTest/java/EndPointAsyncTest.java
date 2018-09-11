@@ -35,6 +35,7 @@ private Context context;
        endPointAsyncTask.execute(InstrumentationRegistry.getContext());
       String Joke = endPointAsyncTask.get(10, TimeUnit.SECONDS);
         Assert.assertTrue(!Joke.equals(""));
+        endPointAsyncTask.cancel(true);
     }
 
 

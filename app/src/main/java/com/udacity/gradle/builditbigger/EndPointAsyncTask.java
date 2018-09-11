@@ -3,8 +3,7 @@ package com.udacity.gradle.builditbigger;
 import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
-import android.widget.TextView;
-import android.widget.Toast;
+
 
 import com.example.displayjokelib.MainActivityDisplay;
 import com.google.api.client.extensions.android.http.AndroidHttp;
