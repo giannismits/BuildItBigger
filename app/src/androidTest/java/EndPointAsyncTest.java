@@ -1,5 +1,4 @@
 import android.content.Context;
-import android.media.audiofx.DynamicsProcessing;
 import android.support.test.InstrumentationRegistry;
 import android.support.test.filters.LargeTest;
 import android.support.test.rule.ActivityTestRule;
@@ -34,7 +33,7 @@ private Context context;
 
      EndPointAsyncTask endPointAsyncTask= new EndPointAsyncTask((MainActivity) context);
        endPointAsyncTask.execute(InstrumentationRegistry.getContext());
-      String Joke = endPointAsyncTask.get(5, TimeUnit.SECONDS);
+      String Joke = endPointAsyncTask.get(10, TimeUnit.SECONDS);
         Assert.assertTrue(!Joke.equals(""));
     }
 

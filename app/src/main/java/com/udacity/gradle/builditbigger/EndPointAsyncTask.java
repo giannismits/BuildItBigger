@@ -55,7 +55,7 @@ import java.io.IOException;
     protected void onPostExecute(String result) {
      final Intent intent = new Intent(context,MainActivityDisplay.class);
      intent.putExtra("result",result);
-//     context.startActivity(intent);
+     context.startActivity(intent);
 
     }
 }
